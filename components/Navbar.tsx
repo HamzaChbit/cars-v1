@@ -6,10 +6,10 @@ import CustomButton from './CustomButton'
 
 const Navbar = () => {
   return (
-    <header  className='w-full absolute z-10  m-0 p-0' >
+    <header  className='w-full absolute z-10  ' >
         <nav className='max-w-[1440px]   mx-auto flex justify-between items-center sm:px-16 px-6 py-6' >
             <Link   className='flex justify-center items-center'  href='/'      >
-            <Image  src='/logo.svg'   alt='Car Logo' width={180}  height={20} className='object-contain   m-0 p-0  '  />
+            <Image  src='/logo.svg'   alt='Car Logo' width={118}  height={20} className='object-contain    '  />
             </Link>
         <CustomButton
                   title='Sign In '
