@@ -19,6 +19,9 @@
 .padding-x {
   @apply sm:px-16 px-6;
 }
+.object-contain {
+  object-fit: contain;
+}
 
 .padding-y {
   @apply py-4;

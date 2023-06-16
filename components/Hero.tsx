@@ -6,7 +6,11 @@ import CustomButton from './CustomButton'
 const Hero = () => {
 
     const handleScroll = () => {
+        const nextSection = document.getElementById("discover");
 
+        if (nextSection) {
+          nextSection.scrollIntoView({ behavior: "smooth" });
+        }
     }
 
 
@@ -26,9 +30,9 @@ const Hero = () => {
             handleClick = {handleScroll}
             />
         </div>
-        <div className='hero__image-container ' >
-            <div className='hero__image' >
-                <Image  src='/hero.png 'alt='hero' fill className='object-contain'/>
+        <div className='hero__image-container  ' >
+            <div className='hero__image  ' >
+                <Image  src='/hero.png 'alt='hero'  className='object-contain ' fill priority/>
                 </div>
                 <div className='hero__image-overlay'   />
             
