@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 import CustomButton from './CustomButton'
-
+import hamza from '../public/hero.png'
 const Hero = () => {
 
     const handleScroll = () => {
@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
         <div className='hero__image-container  ' >
             <div className='hero__image  ' >
-                <Image  src='/hero.png 'alt='hero'  className='object-contain ' width={950} height={950} />
+                <Image  src={hamza}alt='hero'  className='object-contain ' fill />
                 </div>
                 <div className='hero__image-overlay'   />
             
