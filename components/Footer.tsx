@@ -45,6 +45,15 @@ const Footer = () => {
                 <Link href='/' className='text-gray-500' >
                   Terms of Use
                 </Link>
+                <Link href='https://www.linkedin.com/in/hamza-chbit-3b47b1239/' className='text-gray-500' >
+                  <Image alt='linkedin' width={30} height={30} src='/linkedin.svg' />
+              
+                </Link>
+                <Link href='https://github.com/HamzaChbit' className='text-gray-500'
+              ><Image    src='/github.svg'  width={30} height={30} alt='github' />
+                 
+                </Link>
+
               </div>
 
         
